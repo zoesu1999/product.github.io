@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+		
+		<title>果真醜 購物車</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" /><!-- viewport 設定 -->
+        
+        <link href="css/abc.css"   type="text/css" rel="stylesheet" >
+        <link href="css/600-980.css"   type="text/css" rel="stylesheet" media="only screen and (min-width:600px) and (max-width:980px)"> 
+        <link href="css/599.css"   type="text/css" rel="stylesheet" media="only screen and (max-width:599px)">
+
+<style>
+		table {width:50%; border-collapse: collapse; margin:20px auto;}
+		th, td {border:1px solid black; padding:3px; text-align:center;}
+		
+		input[type="text"]:hover {background-color: #fff000;} /*滑鼠游移時的動態變化 */
+		input[type="text"]:focus {background-color : #ff0000;  border: 2px solid red;} /*滑鼠聚焦在該輸入格時的動態變化 */
+		input[type="text"]:active {background-color: chocolate;} /*點選後瞬間的動態變化 */
+        
+        
+    
+</style>
+    
+</head>
+<body>
+    
+        <div id="container">
+        <div id="header">
+        <h1 >購物車</h1>
+        <h>
+        <img src="jpg/pexels-jill-burrow-67580291.jpg" alt="Logo" >
+        </h>  <!-- 設定header 圖片 -->
+       
+        
+        <ul class="navUL">
+        <li><a href="index.html" id="head">首頁</a></li>
+        <li><a href="商品頁.html" id="thing">商品頁</a></li>
+        <li><a href="購物車.html" id="car">購物車</a></li>
+        <li><a href="https://www.nutn.edu.tw/index-ch.html" target="_blank" id="nutn">南大首頁</a></li>
+           <li>  </li>  
+        </ul> <!-- 設定導覽列 -->
+		
+        </div> <!-- header -->
+            
+            
+        <div id="footer">
+        <hr>   
+		<form action="http://rwdnutn.somee.com/frmPostAction.aspx" method="post"> 
+        <h2>資料填寫</h2>
+    		<div>姓名: <input type="text" name="fullname"> </div>
+    		<div> 地址: <input type="text" name="address" size="20" maxlength="28"></div>
+		
+		<p>付款方式:
+		</p>
+   		<input type="radio" name="pay" value="貨到付款" checked="checked"> 貨到付款
+   		<input type="radio" name="pay" value="7-11"> 7-11 ibon付款
+    		<input type="radio" name="pay" value="Family"> FamiPort付款
+    		
+        <div>
+        <hr>
+        <h2>購買物</h2>
+		<p>今天想要來點:
+		</p>
+    		<input type="checkbox" name="buy" value="1">木瓜柳丁組合
+    		<input type="checkbox" name="buy" value="2"> 深綠色蔬菜組合
+    		<input type="checkbox" name="buy" value="3" checked="checked">熱帶水果組合
+
+        </div>
+            <br>
+            <br>
+    		<input type="submit" value="送出" style="width:120px;height:40px;border:2px #9999FF dashed;background-color:pink;"> 	
+        </form>
+            
+        </div>  <!-- footer -->
+
+        </div>
+        
+        
+    
+        
+	
+	
+	
+
+
+</body>
+</html>
+

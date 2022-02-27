@@ -1,0 +1,19 @@
+#container {width:100%;}
+
+#header	{margin: 0 0 15px ;}
+
+#content	{width:100%; float: none;}
+
+#sidebar	{width:100%; float: none;}
+
+#container {position: relative;}
+
+#socialnet {position: absolute; right: 8px; bottom: 6px;}
+
+#footer{padding-bottom: 60px;}
+
+#siteTitle,#socialnet{float: none;}
+
+#nav li a {width:auto; padding: 5px 8px;}
+
+#content h2{font-size: 24px;}

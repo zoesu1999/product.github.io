@@ -1,0 +1,85 @@
+@charset "UTF-8";
+#container {width:960px;margin: auto;} /*設定寬、設定邊界*/
+
+#header	{margin: 0 0 50px 0; } /*設定邊界*/
+
+#content	{width: 600px; float: left; margin: 0 0 50px 0;} /*設定寬、清除左邊浮動區塊、設定邊界*/
+
+#sidebar	{width: 300px; float: right; margin: 0 0 50px 0; } /*設定寬、清除右邊浮動區塊、設定邊界*/
+
+#footer{clear: both;} /*清除兩邊浮動區塊*/
+
+#Hint {
+          background-color: yellow;
+          padding:5px;
+          display:none;
+    } /*設定提示訊息之背景色、邊界*/
+
+
+@media screen
+  {
+      #Hint { display:block; }
+      #Remind{color:cornflowerblue;}
+    }
+    }
+@media screen and (min-width:960px)
+  { 
+      body {width: 990px; margin: auto;}
+    }
+@media screen and (min-width:600px) and (max-width:960px)
+  { 
+      body {width: 85%; margin: auto;}
+    }
+@media screen and (max-width:600px)
+  { 
+      body {width:600px; }
+    }
+
+
+
+img	{max-width: 100%;	
+	height: auto;}
+
+
+.navUL ul {
+			list-style-type:none;
+			line-height:50px;
+            
+		}/*設定導覽列行高*/
+.navUL li {
+			display:inline;
+            
+		}/*使導覽列水平排列*/
+body{
+            background-image: url("../jpg/111.jpg");/*設定網頁背景*/ 
+            background-repeat:no-repeat;/*背景圖不重複*/
+            background-attachment: fixed; /*背景圖位置固定*/
+        }
+h1{
+    background-color:rgb(255, 191, 0);/*設定h1背景色*/
+    background-color:rgba(255, 191, 0,0.5);/*設定h1背景色*/
+    text-align: center;/*設定h1文字置中*/
+        }
+
+a{
+        display: inline-block;
+        width:160px;
+        height: 45px; }
+            
+#head{
+        background-image: url("../jpg/head.jpg");
+        text-indent: -9999px; } /*將文字推到螢幕看不到的地方*/ 
+#thing{
+        background-image: url("../jpg/thing.jpg");
+        text-indent: -9999px; } /*將文字推到螢幕看不到的地方*/   
+#car{
+        background-image: url("../jpg/car.jpg");
+        text-indent: -9999px; } /*將文字推到螢幕看不到的地方*/
+#nutn{
+        background-image: url("../jpg/nutn.jpg");
+         text-indent: -9999px; } /*將文字推到螢幕看不到的地方*/
+
+
+   
+
+   
